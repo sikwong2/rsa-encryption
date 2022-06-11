@@ -14,14 +14,14 @@ Encrypts data using RSA encrption. Encrypted data is decrypted by the decrypt pr
     * `-i [infile]` Input file to encrypt (default is stdin).  
     * `-o [outfile]` Output of encrypted data (default is stdout).  
   
-## Deecrypt
-Decrypts data using RSA decryption. 
+## D    ecrypt
+Decrypts data using RSA decryption.  
 **USAGE**  
 `./decrypt [-h] [-i infile] [-o outfile]`  
 `Flags`  
     * `-h` Program usage and help.  
-    * `-i [infile]` Input file to encrypt (default is stdin).  
-    * `-o [outfile]` Output of encrypted data (default is stdout).  
+    * `-i [infile]` Input file to decrypt (default is stdin).  
+    * `-o [outfile]` Output of decrypted data (default is stdout).  
   
 # Cleanup
 To cleanup all created files, type `make clean` into the command line.
