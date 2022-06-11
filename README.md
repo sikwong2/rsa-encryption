@@ -14,7 +14,7 @@ Encrypts data using RSA encrption. Encrypted data is decrypted by the decrypt pr
     * `-i [infile]` Input file to encrypt (default is stdin).  
     * `-o [outfile]` Output of encrypted data (default is stdout).  
   
-## D    ecrypt
+## Decrypt
 Decrypts data using RSA decryption.  
 **USAGE**  
 `./decrypt [-h] [-i infile] [-o outfile]`  
