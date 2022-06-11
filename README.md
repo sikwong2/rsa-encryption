@@ -7,18 +7,22 @@ To make the the encode and decode executables type `make` or `make all` in the t
 # Usage
 ## Encrypt  
 Encrypts data using RSA encrption. Encrypted data is decrypted by the decrypt program.  
+  
 **USAGE**  
 `./encrypt [-h] [-i infile] [-o outfile]`  
-Flags  
+  
+**Flags**  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to encrypt (default is stdin).  
     * `-o [outfile]` Output of encrypted data (default is stdout).  
   
 ## Decrypt
 Decrypts data using RSA decryption.  
+  
 **USAGE**  
 `./decrypt [-h] [-i infile] [-o outfile]`  
-Flags  
+  
+**Flags**  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to decrypt (default is stdin).  
     * `-o [outfile]` Output of decrypted data (default is stdout).  
