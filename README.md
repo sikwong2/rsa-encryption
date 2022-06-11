@@ -1,5 +1,5 @@
 # rsa-encryption
-An implementation of RSA encryption in C. The implementation is able to encrypt/decrypt files and input from stdin and outputs to a file or stdout.
+An implementation of RSA encryption in C using the gmp library. The implementation is able to encrypt/decrypt files and input from stdin and outputs to a file or stdout. 
 
 # Make
 To make the the encode and decode executables type `make` or `make all` in the terminal.
