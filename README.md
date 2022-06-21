@@ -4,7 +4,8 @@ An implementation of RSA encryption in C using the gmp library. The implementati
 # Make
 To make the the encode and decode executables type `make` or `make all` in the terminal.
 
-# Usage
+# Usage  
+Generate a public and private key using `./keygen`  
 ## Encrypt  
 Encrypts data using RSA encrption. Encrypted data is decrypted by the decrypt program.  
   
