@@ -12,7 +12,7 @@ void usage(char *exec) {
         "   Encrypts data using RSA encryption.\n"
         "   Encrypted data is decrypted by the decrypt program.\n"
         "USAGE\n"
-        "   %s [-hv] [-i infile] [-o outfile] -n pubkey -d privkey\n"
+        "   %s [-hv] [-i infile] [-o outfile] [-n pubkey]\n"
         "OPTIONS\n"
         "   -h              Display program help and usage.\n"
         "   -v              Display verbose program output.\n"

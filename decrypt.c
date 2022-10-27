@@ -12,7 +12,7 @@ void usage(char *exec) {
         "   Decrypts data using RSA decryption.\n"
         "   Encrypted data is encrypted by the encrypt program.\n"
         "USAGE\n"
-        "   %s [-hv] [-i infile] [-o outfile] -n pubkey -d privkey\n"
+        "   %s [-hv] [-i infile] [-o outfile] -d privkey\n"
         "OPTIONS\n"
         "   -h              Display program help and usage.\n"
         "   -v              Display verbose program output.\n"
@@ -31,11 +31,11 @@ int main(int argc, char **argv) {
 
     bool verbose = false;
 
-    while ((opt = getopt(argc, argv, "i:o:n:vh")) != -1) {
+    while ((opt = getopt(argc, argv, "i:o:d:vh")) != -1) {
         switch (opt) {
         case 'i': infile = fopen(optarg, "r"); break;
         case 'o': outfile = fopen(optarg, "w"); break;
-        case 'n': privfile = optarg; break;
+        case 'd': privfile = optarg; break;
         case 'v': verbose = true; break;
         case 'h': usage(argv[0]); return EXIT_FAILURE;
         default: usage(argv[0]); return EXIT_FAILURE;

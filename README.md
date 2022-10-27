@@ -16,17 +16,19 @@ Encrypts data using RSA encrption. Encrypted data is decrypted by the decrypt pr
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to encrypt (default is stdin).  
     * `-o [outfile]` Output of encrypted data (default is stdout).  
-  
+    * `-n [pubkey]` File to use for the public key (defailt is rsa.pub).  
+
 ## Decrypt
 Decrypts data using RSA decryption.  
   
 **USAGE**  
-`./decrypt [-h] [-i infile] [-o outfile]`  
+`./decrypt [-h] [-i infile] [-o outfile] [-d privkey]`  
   
 **Flags**  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to decrypt (default is stdin).  
-    * `-o [outfile]` Output of decrypted data (default is stdout).  
+    * `-o [outfile]` Output of decrypted data (default is stdout).
+    * `-d [privkey]` File to use for the private key (default is rsa.priv).  
   
 # Cleanup
 To cleanup all created files, type `make clean` into the command line.
