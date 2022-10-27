@@ -10,7 +10,7 @@ Generate a public and private key using `./keygen`
 Encrypts data using RSA encrption. Encrypted data is decrypted by the decrypt program.  
   
 **USAGE**  
-`./encrypt [-h] [-i infile] [-o outfile]`  
+`./encrypt [-h] [-i infile] [-o outfile] [-n pubkey]`  
   
 **Flags**  
     * `-h` Program usage and help.  
@@ -27,7 +27,7 @@ Decrypts data using RSA decryption.
 **Flags**  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to decrypt (default is stdin).  
-    * `-o [outfile]` Output of decrypted data (default is stdout).
+    * `-o [outfile]` Output of decrypted data (default is stdout).  
     * `-d [privkey]` File to use for the private key (default is rsa.priv).  
   
 # Cleanup
